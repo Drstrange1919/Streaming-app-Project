@@ -1,0 +1,28 @@
+frontend:
+  image: 664308059577.dkr.ecr.us-east-1.amazonaws.com/streaming-frontend
+  tag: latest
+  replicas: 2
+
+auth:
+  image: 664308059577.dkr.ecr.us-east-1.amazonaws.com/streaming-auth
+  tag: latest
+  replicas: 2
+
+streaming:
+  image: 664308059577.dkr.ecr.us-east-1.amazonaws.com/streaming-streaming
+  tag: latest
+  replicas: 2
+
+admin:
+  image: 664308059577.dkr.ecr.us-east-1.amazonaws.com/streaming-admin
+  tag: latest
+  replicas: 2
+
+chat:
+  image: 664308059577.dkr.ecr.us-east-1.amazonaws.com/streaming-chat
+  tag: latest
+  replicas: 2
+
+mongo:
+  image: mongo
+  tag: "6"
